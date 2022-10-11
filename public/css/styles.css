@@ -105,14 +105,15 @@ nav a{
     justify-content: space-between;
 }
 .price{
-    width: 30%;
+    width: 15px
     font-size: 18px;
-
+    flex-grow: 0.3;
 }
 .desc{
-    width: 70%;
+    width: 15px;
     font-size: 16px;
     color: #39b54a;
+    flex-grow: 0.7;
 }
 .description{
     font-size: 16px;

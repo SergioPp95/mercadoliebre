@@ -1,0 +1,188 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* --------HEADER-------- */
+.head{
+    background-color: #EAC926;
+    
+    padding: 1em;
+}
+
+
+.container-mobile{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50%;
+    padding: 15px;
+}
+.header-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.main-input{
+    width: 85%;
+}
+.title-header{
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+}
+.burger-menu{
+    background-color: #1259c3;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+nav{
+    display: none;  
+}
+
+nav ul{
+    list-style: none;    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+}
+.banner{
+    width: 100vw
+}
+/* ----- MAIN ------ */
+.page-body{
+    margin: auto;
+    width: 90%;
+}
+.last-visit{
+    border: solid 3px black;
+    display: flex;
+    flex-direction: column;
+}
+.titles{
+    font-size: 24px;
+}
+.article-container{
+    
+}
+.artic{
+    margin-bottom: 10px;
+}
+.mod-sell{
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+.icono-envio{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position:absolute;
+    right: 20px;
+    top: -15px
+}
+.pr-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    width: 30%;
+    font-size: 18px;
+
+}
+.desc{
+    width: 70%;
+    font-size: 16px;
+    color: #39b54a;
+}
+.description{
+    font-size: 16px;
+    display: none;
+}
+
+/*-----FOOTER-----*/
+footer{
+    text-align: center;
+    background-color: #ebebeb;
+}
+footer section i {
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #1259c3;
+}
+
+
+/* ------Media tablet----- */
+@media (min-width: 361px) {
+    /*  ------Media Header----    */
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container-mobile{
+        width: 66%;
+    }
+    .title-header{
+        width: 33%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .bot{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left{
+        display: flex;
+    }
+    .right{
+        display: flex;
+    }
+    li{
+        margin: 0 8px
+    }
+  /* ------Media Body------ */
+    .description{
+        display: inline-block
+    }
+    .artic{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+    .article-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .artic{
+        width: 45%;
+    }
+}
+/*-----MEDIA PC------*/
+@media (min-width: 769px) {
+    .artic{
+        width: 22%;
+    }
+}
+
